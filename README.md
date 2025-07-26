@@ -72,6 +72,23 @@ Det = *Detection*, Cls = *Classification*, Seg = *Segmentation*, CNN = *Convolut
 
 
 
+
+# Representative UAV Platforms for Wildfire Management Applications
+
+| UAV Model                  | Category      | Primary Mission                                                                                         | Payload (kg)      | Flight Time (min) | Range (km) | Speed (km/h) | Key Sensors / Remarks                                  |
+|---------------------------|---------------|-------------------------------------------------------------------------------------------------------|-------------------|-------------------|------------|--------------|-------------------------------------------------------|
+| WingtraOne GEN II          | Fixed-Wing    | Pre-fire mapping and large-area fuel assessment; VTOL capability for remote deployment                 | 0.7 to 2          | 59                | 100+       | 57           | VTOL, PPK GNSS, high-accuracy mapping [1]             |
+| Quantum-Systems Trinity F90+ | Fixed-Wing | Long-range surveillance and post-fire damage assessment                                               | Up to 1.5         | 90                | 100+       | 72           | VTOL, robust in adverse conditions [2]                 |
+| Insitu ScanEagle 3         | Fixed-Wing    | Strategic overview and persistent surveillance of remote fire lines                                   | Up to 50          | 240+              | 150+       | 139          | Catapult launch, military-grade endurance [3]          |
+| DJI Mavic 3T               | Multicopter   | Initial fire detection and hotspot identification in confined areas                                  | 0.4               | 45                | 15         | 54           | Integrated thermal and visual cameras [4]              |
+| DJI Matrice 300 RTK        | Multicopter   | Mid-fire monitoring, gas detection, and real-time incident support                                   | Up to 2.7         | 55                | 15         | 82.8         | Hot-swappable batteries, multiple payloads [5]         |
+| Freefly Alta X             | Multicopter   | Initial fire detection in tight spaces and obstacle-rich environments; supports advanced sensor deployment for fire research. | Up to 15.8        | 20–35             | 5          | 80           | Custom sensor integration, research use [6]            |
+| Yamaha Fazer R G2          | Single Rotor  | Large-area surveillance and targeted suppression in rugged terrain                                   | 35 (spray) / 10 (sensor) | 90 to 100        | 30         | 72           | Gasoline-powered, adaptable for wildfire ops [7]       |
+| SwissDrones SDO 50 V2      | Single Rotor  | Persistent monitoring and communication relay over active fire zones                                 | Up to 45          | 180+              | 100+       | 60           | Turbine-powered, long-range reconnaissance [8]         |
+
+
+
+
 # Overview of Deep Learning Models for UAV-Based Fire Detection, Classification, and Segmentation
 | Ref  | Method                                    | Categories     | Ref  | Method                               | Categories        |
 |-------|-------------------------------------------|----------------|-------|-------------------------------------|-------------------|
