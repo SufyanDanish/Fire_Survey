@@ -2,7 +2,7 @@
 # Vision-Based Fire Management System Using Autonomous Unmanned Aerial Vehicles: A Comprehensive Survey
 This repository systematically surveys fire management studies, covering various tasks such as classification, detection, and segmentation. It serves as a platform to record and track recent research work in fire management.
 # 1 [Paper Link](https://link.springer.com/article/10.1007/s10462-025-11415-3)
-# Abstract:
+**Abstract:**
 In recent years, the intensity and frequency of fires have increased significantly, resulting in considerable damage to properties and the environment through wildfires, oil pipeline fires, hazardous gas emissions, and building fires. Effective fire management systems are essential for early detection, rapid response, and mitigation of fire impacts. To address this challenge, unmanned aerial vehicles (UAVs) integrated with advanced state-of-the-art deep learning techniques offer a transformative solution for real-time fire detection, monitoring, and response. As UAVs play an essential role in the detection, classification and segmentation of fire-affected regions, enhancing vision-based fire management through advanced computer vision and deep learning technologies. This comprehensive survey critically examines recent advancements in vision-based fire management systems enabled by autonomous UAVs. It explores how baseline deep learning models, including convolutional neural networks, attention mechanisms, YOLO variants, generative adversarial networks and transformers, enhance UAV capabilities for fire-related tasks. Unlike previous reviews that focus on conventional machine learning and general AI approaches, this survey emphasizes the unique advantages and applications of deep learning-driven UAV platforms in fire scenarios. It provides detailed insights into various architectures, performance and applications used in UAV-based fire management. Additionally, the paper provides detailed insights into the available fire datasets along with their download links and outlines critical challenges, including data imbalance, privacy concerns, and real-time processing limitations. Finally, the survey identifies promising future directions, including multimodal sensor fusion, lightweight neural network architectures optimized for UAV deployment, and vision-language models. By synthesizing current research and identifying future directions, this survey aims to support the development of robust, intelligent UAV-based solutions for next-generation fire management. Researchers and professionals can access the [GitHub repository](https://github.com/SufyanDanish/Fire_Survey/edit/main/README.md).
 
 The complete paper and data will be available after publication.
@@ -169,6 +169,23 @@ Det = *Detection*, Cls = *Classification*, Seg = *Segmentation*, CNN = *Convolut
 | [202] | [Corsican dataset](http://cfdb.univ-corse.fr/index.php?menu=1)                                           | RGB                 | -      |
 | [91]  | [M4SFWD](https://github.com/Philharmy-Wang/M4SFWD) (RGB, [GAN](https://ieee-dataport.org/documents/multiple-scenarios-multiple-weather-conditions-multiple-lighting-conditions-and-multiple)) | RGB, GAN             | 35,526 |
 | [148] | [MTBS data](https://ieee-dataport.org/documents/large-scale-burn-severity-mapping-multispectral-imagery-using-deep-semantic-segmentation) | RGB-IR              | 6000   |
+
+
+## 📌 Citation
+
+If you use this work, please cite:
+
+```bibtex
+@article{danish2025vision,
+  title={Vision-based fire management system using autonomous unmanned aerial vehicles: a comprehensive survey},
+  author={Danish, Sufyan and Piran, Md Jalil and Khan, Samee Ullah and Khan, Muhammad Attique and Dang, L Minh and Zweiri, Yahya and Song, Hyoung-Kyu and Moon, Hyeonjoon},
+  journal={Artificial Intelligence Review},
+  volume={59},
+  number={1},
+  pages={16},
+  year={2025},
+  publisher={Springer}
+}
 
 
 
